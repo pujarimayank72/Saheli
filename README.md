@@ -1,6 +1,8 @@
 # Saheli
 
-Saheli is a privacy-first Android Kotlin MVP for the Gemma 4 Good hackathon. It supports sex workers with private AI counselling, health guidance, rights information, NGO support workflows, voice input, text-to-speech, and image upload/capture for multimodal questions.
+Saheli is a privacy-first Android Kotlin MVP for the Gemma 4 Good hackathon. 
+
+It supports sex workers with private AI counselling, health guidance, rights information, NGO support workflows, voice input, text-to-speech, and image upload/capture for multimodal questions.
 
 ## Project Metadata
 
@@ -9,12 +11,11 @@ Saheli is a privacy-first Android Kotlin MVP for the Gemma 4 Good hackathon. It 
 - Platform: Android Kotlin with Jetpack Compose
 - AI runtime: Gemma LiteRT-LM on supported devices, with optional NGO-hosted Ollama fallback
 - Current scope: MVP prototype for hackathon evaluation
-- Privacy posture: profile and onboarding data stay in app-private storage; server credentials are not committed; private docs, PDFs, PRD files, and generated build outputs are ignored by git.
-
+- Privacy posture: profile and onboarding data stay in app-private storage; 
 ## MVP Features
 
 - Jetpack Compose Android app with warm Saheli UI and the provided brand asset.
-- Onboarding with English, Hindi, Bengali, Tamil, Telugu, and Marathi.
+- Onboarding with English, Hindi, Bengali, etc.
 - Profile setup for pseudonym, age range, city/state, and support priorities.
 - Model setup after onboarding and again in Settings.
 - RAM detection: phones with 6 GB or more default to local LiteRT; lower-memory phones can use NGO Ollama.
@@ -54,4 +55,4 @@ Use Settings or the onboarding Gemma step to either:
 - Import an existing `.litertlm` model file from the device.
 - Configure a secure NGO-hosted Ollama endpoint for lower-memory phones or cloud fallback.
 
-When no model or server is configured, Saheli still provides offline static health, rights, and counselling guidance. Do not commit private server URLs, bearer tokens, PDFs, PRDs, or exported APKs.
+When no model or server is configured, Saheli still provides offline static health, rights, and counselling guidance.
