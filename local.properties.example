@@ -1,0 +1,12 @@
+# Copy this file to local.properties on your machine.
+# local.properties is intentionally ignored by git because it contains local SDK paths
+# and optional private server credentials.
+
+sdk.dir=C\:\\Android
+
+# Optional secure NGO Ollama configuration.
+# Leave these blank for a local-only demo, or set them from environment variables:
+# SAHELI_OLLAMA_URL, SAHELI_OLLAMA_KEY, SAHELI_OLLAMA_MODEL
+saheli.ollama.url=https://your-secure-ngo-server.example
+saheli.ollama.key=replace_with_private_api_key
+saheli.ollama.model=gemma4:e2b

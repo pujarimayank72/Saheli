@@ -1,0 +1,42 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+*.log
+
+# Local secrets and signing files
+secrets.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Private hackathon notes and source documents
+*.pdf
+*.docx
+*.pptx
+prd
+prd/
+docs/prd/
+AI App UX_UI Design.pdf
+saheli-github-upload*/
+github-upload*/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
